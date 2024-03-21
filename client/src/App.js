@@ -6,7 +6,6 @@ import "./Styles/registration.css"
 
 function App() {
   return (
-
     <Routes>
       <Route path="/" element={<Login/>}></Route>
       <Route path="/register" element={<Register/>}></Route>
@@ -16,4 +15,3 @@ function App() {
 }
 
 export default App;
-
